@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("OpenQbit.EnventShedule.Common.Models")]
+[assembly: AssemblyTitle("OpenQbit.EventShedule.DataAccess.Data.Contracts")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("OpenQbit.EnventShedule.Common.Models")]
+[assembly: AssemblyProduct("OpenQbit.EventShedule.DataAccess.Data.Contracts")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("29de09c2-77fb-4915-9ab8-28c232289800")]
+[assembly: Guid("cde48ca7-d090-4256-b36b-c3bf1f2f2dec")]
 
 // Version information for an assembly consists of the following four values:
 //
