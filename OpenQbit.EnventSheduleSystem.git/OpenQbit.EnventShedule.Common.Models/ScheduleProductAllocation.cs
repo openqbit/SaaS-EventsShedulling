@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenQbit.EnventShedule.Common.Models
+namespace OpenQbit.EventShedule.Common.Models
 {
    public class ScheduleProductAllocation
     {

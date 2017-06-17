@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using System.ComponentModel;
 
-namespace OpenQbit.EnventShedule.Common.Models
+namespace OpenQbit.EventShedule.Common.Models
 {
    public class ScheduleReasourceAllocation
     {
