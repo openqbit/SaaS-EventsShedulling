@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.EventShedule.DataA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.EventShedule.Common.Models", "OpenQbit.EnventShedule.Common.Models\OpenQbit.EventShedule.Common.Models.csproj", "{29DE09C2-77FB-4915-9AB8-28C232289800}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.EventShedule.Service.WebAPI", "OpenQbit.EventShedule.Service.WebAPI\OpenQbit.EventShedule.Service.WebAPI.csproj", "{50B673CA-FF22-4D93-96D0-1EACAC380CB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{29DE09C2-77FB-4915-9AB8-28C232289800}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29DE09C2-77FB-4915-9AB8-28C232289800}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29DE09C2-77FB-4915-9AB8-28C232289800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B673CA-FF22-4D93-96D0-1EACAC380CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B673CA-FF22-4D93-96D0-1EACAC380CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B673CA-FF22-4D93-96D0-1EACAC380CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B673CA-FF22-4D93-96D0-1EACAC380CB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,5 +53,6 @@ Global
 		{824EA488-50B0-410B-BB74-B710AE4BD711} = {802FE4FF-CA15-4DAF-94CD-C96E9EBA282F}
 		{CDE48CA7-D090-4256-B36B-C3BF1F2F2DEC} = {802FE4FF-CA15-4DAF-94CD-C96E9EBA282F}
 		{29DE09C2-77FB-4915-9AB8-28C232289800} = {6A7E828F-7F0C-446A-A521-01A05167EC0C}
+		{50B673CA-FF22-4D93-96D0-1EACAC380CB4} = {8736B7F4-DF30-4B81-88B8-12EA80800EA3}
 	EndGlobalSection
 EndGlobal
