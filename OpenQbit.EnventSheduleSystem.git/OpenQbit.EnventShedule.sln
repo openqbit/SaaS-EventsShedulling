@@ -17,9 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Test", "5 Test", "{FCE872
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.EventShedule.DataAccess.DAL", "OpenQbit.EventShedule.DataAccess.DAL\OpenQbit.EventShedule.DataAccess.DAL.csproj", "{824EA488-50B0-410B-BB74-B710AE4BD711}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.EventShedule.DataAccess.DAL.Contracts", "OpenQbit.EventShedule.DataAccess.Data.Contracts\OpenQbit.EventShedule.DataAccess.DAL.Contracts.csproj", "{CDE48CA7-D090-4256-B36B-C3BF1F2F2DEC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.EventShedule.Common.Models", "OpenQbit.EnventShedule.Common.Models\OpenQbit.EventShedule.Common.Models.csproj", "{29DE09C2-77FB-4915-9AB8-28C232289800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.EventShedule.BLL", "OpenQbit.EventShedule.BLL\OpenQbit.EventShedule.BLL.csproj", "{DF77D852-A680-47DE-8F83-8B78A90F608A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.EventShedule.BLL.Contracts", "OpenQbit.EventShedule.BLL.Contracts\OpenQbit.EventShedule.BLL.Contracts.csproj", "{8DE7B2C3-9FCE-41E3-A7AD-1AA4306915A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,21 +33,26 @@ Global
 		{824EA488-50B0-410B-BB74-B710AE4BD711}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{824EA488-50B0-410B-BB74-B710AE4BD711}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{824EA488-50B0-410B-BB74-B710AE4BD711}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CDE48CA7-D090-4256-B36B-C3BF1F2F2DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDE48CA7-D090-4256-B36B-C3BF1F2F2DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDE48CA7-D090-4256-B36B-C3BF1F2F2DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDE48CA7-D090-4256-B36B-C3BF1F2F2DEC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29DE09C2-77FB-4915-9AB8-28C232289800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{29DE09C2-77FB-4915-9AB8-28C232289800}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29DE09C2-77FB-4915-9AB8-28C232289800}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29DE09C2-77FB-4915-9AB8-28C232289800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF77D852-A680-47DE-8F83-8B78A90F608A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF77D852-A680-47DE-8F83-8B78A90F608A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF77D852-A680-47DE-8F83-8B78A90F608A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF77D852-A680-47DE-8F83-8B78A90F608A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE7B2C3-9FCE-41E3-A7AD-1AA4306915A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE7B2C3-9FCE-41E3-A7AD-1AA4306915A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE7B2C3-9FCE-41E3-A7AD-1AA4306915A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE7B2C3-9FCE-41E3-A7AD-1AA4306915A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{824EA488-50B0-410B-BB74-B710AE4BD711} = {802FE4FF-CA15-4DAF-94CD-C96E9EBA282F}
-		{CDE48CA7-D090-4256-B36B-C3BF1F2F2DEC} = {802FE4FF-CA15-4DAF-94CD-C96E9EBA282F}
 		{29DE09C2-77FB-4915-9AB8-28C232289800} = {6A7E828F-7F0C-446A-A521-01A05167EC0C}
+		{DF77D852-A680-47DE-8F83-8B78A90F608A} = {040A178F-C952-47BD-9DA6-8BF4210ABAFA}
+		{8DE7B2C3-9FCE-41E3-A7AD-1AA4306915A2} = {040A178F-C952-47BD-9DA6-8BF4210ABAFA}
 	EndGlobalSection
 EndGlobal
