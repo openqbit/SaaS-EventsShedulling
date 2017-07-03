@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{824EA488-50B0-410B-BB74-B710AE4BD711}</ProjectGuid>
+    <ProjectGuid>{EE32A62E-A67A-491D-A7A7-01FE414ED30C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpenQbit.EventShedule.DataAccess.DAL</RootNamespace>
-    <AssemblyName>OpenQbit.EventShedule.DataAccess.DAL</AssemblyName>
+    <RootNamespace>OpenQbit.EventShedule.DataAccess.DAL.Contracts</RootNamespace>
+    <AssemblyName>OpenQbit.EventShedule.DataAccess.DAL.Contracts</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,16 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -49,26 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="IDBContext.cs" />
+    <Compile Include="IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository.cs" />
-    <Compile Include="ScheduleContext.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\OpenQbit.EnventShedule.Common.Models\OpenQbit.EventShedule.Common.Models.csproj">
-      <Project>{29de09c2-77fb-4915-9ab8-28c232289800}</Project>
-      <Name>OpenQbit.EventShedule.Common.Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OpenQbit.EventShedule.DataAccess.DAL.Contracts\OpenQbit.EventShedule.DataAccess.DAL.Contracts.csproj">
-      <Project>{ee32a62e-a67a-491d-a7a7-01fe414ed30c}</Project>
-      <Name>OpenQbit.EventShedule.DataAccess.DAL.Contracts</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.EventShedule.BLL",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.EventShedule.BLL.Contracts", "OpenQbit.EventShedule.BLL.Contracts\OpenQbit.EventShedule.BLL.Contracts.csproj", "{8DE7B2C3-9FCE-41E3-A7AD-1AA4306915A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.EventShedule.DataAccess.DAL.Contracts", "OpenQbit.EventShedule.DataAccess.DAL.Contracts\OpenQbit.EventShedule.DataAccess.DAL.Contracts.csproj", "{EE32A62E-A67A-491D-A7A7-01FE414ED30C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{8DE7B2C3-9FCE-41E3-A7AD-1AA4306915A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DE7B2C3-9FCE-41E3-A7AD-1AA4306915A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DE7B2C3-9FCE-41E3-A7AD-1AA4306915A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE32A62E-A67A-491D-A7A7-01FE414ED30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE32A62E-A67A-491D-A7A7-01FE414ED30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE32A62E-A67A-491D-A7A7-01FE414ED30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE32A62E-A67A-491D-A7A7-01FE414ED30C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,5 +64,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{824EA488-50B0-410B-BB74-B710AE4BD711} = {802FE4FF-CA15-4DAF-94CD-C96E9EBA282F}
 		{29DE09C2-77FB-4915-9AB8-28C232289800} = {6A7E828F-7F0C-446A-A521-01A05167EC0C}
+		{50B673CA-FF22-4D93-96D0-1EACAC380CB4} = {8736B7F4-DF30-4B81-88B8-12EA80800EA3}
+		{DF77D852-A680-47DE-8F83-8B78A90F608A} = {040A178F-C952-47BD-9DA6-8BF4210ABAFA}
+		{8DE7B2C3-9FCE-41E3-A7AD-1AA4306915A2} = {040A178F-C952-47BD-9DA6-8BF4210ABAFA}
+		{EE32A62E-A67A-491D-A7A7-01FE414ED30C} = {802FE4FF-CA15-4DAF-94CD-C96E9EBA282F}
 	EndGlobalSection
 EndGlobal
