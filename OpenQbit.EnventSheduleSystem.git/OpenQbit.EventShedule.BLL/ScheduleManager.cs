@@ -5,7 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenQbit.EventShedule.Common.Models;
-
+using OpenQbit.EventShedule.DataAccess.DAL.Contracts;
+using OpenQbit.EventShedule.Common.Utils.Logs;
 
 namespace OpenQbit.EventShedule.BLL
 {
@@ -13,9 +14,9 @@ namespace OpenQbit.EventShedule.BLL
     {
         private IRepository _repository;
 
-        private Ilogger _log;
+        private ILogger _log;
 
-        [InjectionConstructor]
+       // [InjectionConstructor]
         public ScheduleManager(IRepository repository, ILogger log)
         {
             this._repository = repository;
@@ -23,7 +24,7 @@ namespace OpenQbit.EventShedule.BLL
         }
         public bool RecoredSchedule(Schedule schedule)
         {
-            _log.LogError("");
+            _log.logError("");
 
             return _repository.Create<Schedule>(schedule);
         }

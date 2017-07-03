@@ -52,6 +52,14 @@
       <Project>{8de7b2c3-9fce-41e3-a7ad-1aa4306915a2}</Project>
       <Name>OpenQbit.EventShedule.BLL.Contracts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.EventShedule.Common.Utils.Logs\OpenQbit.EventShedule.Common.Utils.Logs.csproj">
+      <Project>{ae6d4732-f975-4bc8-b992-faaf06b025f3}</Project>
+      <Name>OpenQbit.EventShedule.Common.Utils.Logs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.EventShedule.DataAccess.DAL.Contracts\OpenQbit.EventShedule.DataAccess.DAL.Contracts.csproj">
+      <Project>{ee32a62e-a67a-491d-a7a7-01fe414ed30c}</Project>
+      <Name>OpenQbit.EventShedule.DataAccess.DAL.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OpenQbit.EventShedule.DataAccess.DAL\OpenQbit.EventShedule.DataAccess.DAL.csproj">
       <Project>{824ea488-50b0-410b-bb74-b710ae4bd711}</Project>
       <Name>OpenQbit.EventShedule.DataAccess.DAL</Name>

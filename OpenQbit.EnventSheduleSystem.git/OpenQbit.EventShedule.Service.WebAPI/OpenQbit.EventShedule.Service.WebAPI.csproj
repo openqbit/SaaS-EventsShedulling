@@ -285,6 +285,24 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenQbit.EventShedule.BLL.Contracts\OpenQbit.EventShedule.BLL.Contracts.csproj">
+      <Project>{8de7b2c3-9fce-41e3-a7ad-1aa4306915a2}</Project>
+      <Name>OpenQbit.EventShedule.BLL.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.EventShedule.BLL\OpenQbit.EventShedule.BLL.csproj">
+      <Project>{df77d852-a680-47de-8f83-8b78a90f608a}</Project>
+      <Name>OpenQbit.EventShedule.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.EventShedule.DataAccess.DAL.Contracts\OpenQbit.EventShedule.DataAccess.DAL.Contracts.csproj">
+      <Project>{ee32a62e-a67a-491d-a7a7-01fe414ed30c}</Project>
+      <Name>OpenQbit.EventShedule.DataAccess.DAL.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.EventShedule.DataAccess.DAL\OpenQbit.EventShedule.DataAccess.DAL.csproj">
+      <Project>{824ea488-50b0-410b-bb74-b710ae4bd711}</Project>
+      <Name>OpenQbit.EventShedule.DataAccess.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
