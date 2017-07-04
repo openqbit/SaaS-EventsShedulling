@@ -28,5 +28,40 @@ namespace OpenQbit.EventShedule.BLL
 
             return _repository.Create<Schedule>(schedule);
         }
+        public bool EditSchedule(Schedule schedule)
+        {
+            _log.logError("");
+
+            return _repository.Update<Schedule>(schedule);
+        }
+        public bool DeleteSchedule(Schedule schedule)
+        {
+            _log.logError("");
+
+            return _repository.Delete<Schedule>(schedule);
+        }
+        public List<Schedule> GetAllSchedules()
+        {
+            _log.logError("");
+
+            return _repository.GetAll<Schedule>();
+        }
+        public Schedule FindSchedule(int id)
+        {
+            _log.logError("");
+
+            return _repository.Find<Schedule>(S=> S.ScheduleId == id);
+        }
+
+        public Schedule FindSchedule(Schedule schedule)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Schedule> FindScheduleList(List<Schedule> schedule)
+        {
+            throw new NotImplementedException();
+        }
+        
     }
 }
