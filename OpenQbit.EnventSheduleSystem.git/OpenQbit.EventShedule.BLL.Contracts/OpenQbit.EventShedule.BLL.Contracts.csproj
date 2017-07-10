@@ -40,7 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICustomerManager.cs" />
+    <Compile Include="IScheduleReasourceAllocationManager.cs" />
     <Compile Include="IScheduleManager.cs" />
+    <Compile Include="IScheduleProductAllocationManager.cs" />
+    <Compile Include="ISystemManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

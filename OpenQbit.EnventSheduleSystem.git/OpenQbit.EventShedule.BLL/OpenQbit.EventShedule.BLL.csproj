@@ -40,8 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerManager.cs" />
     <Compile Include="ScheduleManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScheduleReasourceAllocationManager.cs" />
+    <Compile Include="SheduleProductAllocationManager.cs" />
+    <Compile Include="SystemsManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OpenQbit.EnventShedule.Common.Models\OpenQbit.EventShedule.Common.Models.csproj">

@@ -207,6 +207,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\API\CustomerController.cs" />
+    <Compile Include="Controllers\API\ScheduleController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -282,6 +283,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Schedule\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -292,6 +294,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\OpenQbit.EnventShedule.Common.Models\OpenQbit.EventShedule.Common.Models.csproj">
+      <Project>{29de09c2-77fb-4915-9ab8-28c232289800}</Project>
+      <Name>OpenQbit.EventShedule.Common.Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OpenQbit.EventShedule.BLL.Contracts\OpenQbit.EventShedule.BLL.Contracts.csproj">
       <Project>{8de7b2c3-9fce-41e3-a7ad-1aa4306915a2}</Project>
       <Name>OpenQbit.EventShedule.BLL.Contracts</Name>
